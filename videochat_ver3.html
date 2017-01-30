@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>video chat!</title>
+  <script type="text/javascript" src="./peer.min.js"></script>
+  <script type="text/javascript" src="./videochat_ver3.js"></script>
+</head>
+ 
+<body>
+<body>
+  <div>
+    <div  align="center">
+      <p>あなたのID : <span id="peer-id"></span><p></p>
+      <input type="text" id="others-peer-id" placeholder="相手のIDを入力" /><button id="call">相手をコール</button>
+    </div>
+    <div align="center">
+      <!-- Video area -->
+      <video id="others-video" autoplay></video>
+      <br>
+      <video id="my-video" width="480px" height="360px" autoplay muted></video>
+    </div>
+</div>
+ 
+</body>
+</html>
